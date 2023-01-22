@@ -42,6 +42,7 @@ class MainActivity : ComponentActivity() {
 //                    } )
 
                     NavigationGraph(navController = rememberNavController(),this)
+                    Text(text = "Nirgav Diyora",style = MaterialTheme.typography.body2)
                 }
             }
         }
